@@ -1,6 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5434/ostock_dev
-    username: postgres
-    password: {cipher}53f30318817f29f2a398a07b43984be8cd1fe1d3be628a668b09a3018a907fa8
-
