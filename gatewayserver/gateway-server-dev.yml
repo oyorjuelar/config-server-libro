@@ -8,7 +8,7 @@ spring:
           predicates:
             - Path=/salchichon/**
           filters:
-            - RewritePath=/organization/(?<path>.*), /$\{path}
+            - RewritePath=/salchichon/(?<path>.*), /$\{path}
         - id: licensing-service
           uri: lb://licensing-service
           predicates:
