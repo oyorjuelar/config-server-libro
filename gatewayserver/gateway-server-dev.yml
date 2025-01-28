@@ -14,7 +14,7 @@ spring:
           uri: lb://licensing-service
           predicates:
             #- Path=/license/**
-            - Header=servicio, organzacion
+            - Header=servicio, licensia
           #filters:
           #  - RewritePath=/license/(?<path>.*), /$\{path}
 
